@@ -1,5 +1,7 @@
 const crypto = require('crypto');
 const connection = require('../database/connection');
+const generateUniqueId = require('../utils/generateUniqueId.js');
+
 
 module.exports = {
     async index (request, response){
